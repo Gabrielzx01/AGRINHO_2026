@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agricultura Sustentável & Equilíbrio com o Meio Ambiente</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- ▓▓▓ HEADER — faixa verde + título ▓▓▓ -->
+<header class="site-header">
+
+  <!-- Faixa verde degradê horizontal: mais escuro à esquerda, mais claro à direita -->
+  <div class="header-band">
+    <div class="header-band__text">
+      <span class="band-tag">🌿 Agro Forte &nbsp;·&nbsp; Futuro Sustentável &nbsp;·&nbsp; Equilíbrio Ambiental</span>
+    </div>
+  </div>
+
+  <!-- Bloco de título com faixa verde atrás -->
+  <div class="header-title-wrap">
+    <div class="header-title-bg"></div><!-- faixa horizontal verde atrás do texto -->
+    <div class="header-title-content">
+      <h1 class="main-title">
+        <span class="title-line1">Agricultura Sustentável</span>
+        <span class="title-amp">&amp;</span>
+        <span class="title-line2">Equilíbrio com o Meio Ambiente</span>
+      </h1>
+      <p class="main-subtitle">
+        A importância do <strong>Agro Forte</strong> alinhado ao meio ambiente —
+        o ponto‑chave para um <em>futuro sustentável</em>
+      </p>
+    </div>
+  </div>
+
+</header>
+
+<!-- ▓▓▓ HERO IMAGE — cena agrícola realista ▓▓▓ -->
+<section class="hero-scene">
+  <svg class="scene-svg" viewBox="0 0 1440 640" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-label="Paisagem de agricultura sustentável em equilíbrio com a natureza" role="img">
+    <defs>
+      <!-- Céu azul realista -->
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%"  stop-color="#1565a0"/>
+        <stop offset="40%" stop-color="#42a5d5"/>
+        <stop offset="80%" stop-color="#90caf9"/>
+        <stop offset="100%" stop-color="#e1f3fc"/>
+      </linearGradient>
+      <!-- Solo -->
+      <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%"   stop-color="#6d4c41"/>
+        <stop offset="100%" stop-color="#3e2723"/>
+      </linearGradient>
+      <!-- Campo verde -->
+      <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%"   stop-color="#4caf50"/>
+        <stop offset="100%" stop-color="#2e7d32"/>
+      </linearGradient>
+      <!-- Colinas -->
+      <linearGradient id="hill1" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%"   stop-color="#66bb6a"/>
+        <stop offset="100%" stop-color="#2e7d32"/>
+      </linearGradient>
+      <linearGradient id="hill2" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%"   stop-color="#81c784"/>
+        <stop offset="100%" stop-color="#388e3c"/>
+      </linearGradient>
+      <!-- Rio -->
+      <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%"   stop-color="#4fc3f7"/>
+        <stop offset="100%" stop-color="#0277bd"/>
+      </linearGradient>
+      <!-- Sol -->
+      <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+        <stop offset="0%"   stop-color="#ffffff"/>
+        <stop offset="35%"  stop-color="#fff9c4"/>
+        <stop offset="70%"  stop-color="#ffe082"/>
+        <stop offset="100%" stop-color="#ffca28" stop-opacity="0"/>
+      </radialGradient>
+      <!-- Copa de árvore -->
+      <radialGradient id="tr1" cx="40%" cy="30%" r="65%">
+        <stop offset="0%"   stop-color="#81c784"/>
+        <stop offset="55%"  stop-color="#2e7d32"/>
+        <stop offset="100%" stop-color="#1b5e20"/>
+      </radialGradient>
+      <radialGradient id="tr2" cx="40%" cy="30%" r="65%">
+        <stop offset="0%"   stop-color="#a5d6a7"/>
+        <stop offset="55%"  stop-color="#43a047"/>
+        <stop offset="100%" stop-color="#2e7d32"/>
+      </radialGradient>
+      <!-- Nuvem -->
+      <radialGradient id="cloud" cx="50%" cy="65%" r="55%">
+        <stop offset="0%"   stop-color="#ffffff"/>
+        <stop offset="100%" stop-color="#e3f2fd"/>
+      </radialGradient>
+      <filter id="blur3"><feGaussianBlur stdDeviation="3"/></filter>
+      <filter id="blur5"><feGaussianBlur stdDeviation="5"/></filter>
+      <filter id="blur1p5"><feGaussianBlur stdDeviation="1.5"/></filter>
+    </defs>
+
+    <!-- ── CÉU ── -->
+    <rect width="1440" height="640" fill="url(#sky)"/>
+
+    <!-- Névoa do horizonte -->
+    <ellipse cx="720" cy="370" rx="900" ry="75" fill="#b3e5fc" opacity="0.35" filter="url(#blur5)"/>
+
+    <!-- ── SOL ── -->
+    <circle cx="1220" cy="100" r="130" fill="url(#sun)" opacity="0.6"/>
+    <circle cx="1220" cy="100" r="58"  fill="#fffde7" opacity="0.97"/>
+    <circle cx="1220" cy="100" r="46"  fill="#ffffff"/>
+    <circle cx="1208" cy="88"  r="15"  fill="white" opacity="0.55"/>
+    <!-- Raios -->
+    <g stroke="#fff59d" stroke-width="1.5" opacity="0.35">
+      <line x1="1220" y1="100" x2="1080" y2="30"/>
+      <line x1="1220" y1="100" x2="1060" y2="80"/>
+      <line x1="1220" y1="100" x2="1070" y2="160"/>
+      <line x1="1220" y1="100" x2="1130" y2="220"/>
+      <line x1="1220" y1="100" x2="1320" y2="20"/>
+      <line x1="1220" y1="100" x2="1360" y2="75"/>
+      <line x1="1220" y1="100" x2="1370" y2="155"/>
+      <line x1="1220" y1="100" x2="1310" y2="220"/>
+    </g>
+
+    <!-- ── NUVENS ── -->
+    <g filter="url(#blur1p5)">
+      <!-- Nuvem 1 -->
+      <ellipse cx="210" cy="120" rx="105" ry="38" fill="url(#cloud)" opacity="0.95"/>
+      <ellipse cx="272" cy="100" rx="80"  ry="34" fill="url(#cloud)" opacity="0.90"/>
+      <ellipse cx="145" cy="115" rx="65"  ry="28" fill="url(#cloud)" opacity="0.85"/>
+      <ellipse cx="210" cy="140" rx="112" ry="25" fill="white" opacity="0.70"/>
+      <!-- Nuvem 2 -->
+      <ellipse cx="570" cy="88"  rx="88"  ry="32" fill="url(#cloud)" opacity="0.85"/>
+      <ellipse cx="635" cy="72"  rx="66"  ry="28" fill="url(#cloud)" opacity="0.80"/>
+      <ellipse cx="508" cy="84"  rx="58"  ry="24" fill="url(#cloud)" opacity="0.75"/>
+      <ellipse cx="570" cy="108" rx="95"  ry="22" fill="white" opacity="0.60"/>
+      <!-- Nuvem 3 (pequena) -->
+      <ellipse cx="900" cy="75"  rx="68"  ry="24" fill="url(#cloud)" opacity="0.70"/>
+      <ellipse cx="952" cy="62"  rx="50"  ry="21" fill="url(#cloud)" opacity="0.65"/>
+    </g>
+
+    <!-- Pássaros -->
+    <g stroke="#37474f" stroke-width="2" fill="none" opacity="0.75">
+      <path d="M400 148 Q410 138 420 148"/>
+      <path d="M427 134 Q437 124 447 134"/>
+      <path d="M437 152 Q447 142 457 152"/>
+    </g>
+    <g stroke="#37474f" stroke-width="1.6" fill="none" opacity="0.55">
+      <path d="M760 120 Q769 111 778 120"/>
+      <path d="M784 108 Q793 99 802 108"/>
+    </g>
+
+    <!-- ── COLINAS DISTANTES ── -->
+    <ellipse cx="0"    cy="420" rx="310" ry="160" fill="#a5d6a7" opacity="0.5" filter="url(#blur3)"/>
+    <ellipse cx="420"  cy="405" rx="380" ry="175" fill="#81c784" opacity="0.48" filter="url(#blur3)"/>
+    <ellipse cx="850"  cy="400" rx="400" ry="170" fill="#a5d6a7" opacity="0.50" filter="url(#blur3)"/>
+    <ellipse cx="1280" cy="410" rx="360" ry="162" fill="#81c784" opacity="0.48" filter="url(#blur3)"/>
+    <ellipse cx="1440" cy="420" rx="280" ry="150" fill="#a5d6a7" opacity="0.45" filter="url(#blur3)"/>
+    <!-- Colinas médias -->
+    <ellipse cx="150"  cy="438" rx="280" ry="130" fill="url(#hill1)" opacity="0.80"/>
+    <ellipse cx="520"  cy="428" rx="340" ry="140" fill="url(#hill2)" opacity="0.75"/>
+    <ellipse cx="920"  cy="422" rx="360" ry="138" fill="url(#hill1)" opacity="0.78"/>
+    <ellipse cx="1320" cy="432" rx="310" ry="132" fill="url(#hill2)" opacity="0.75"/>
+
+    <!-- ── PRADO ── -->
+    <path d="M0 438 Q360 414 720 426 Q1080 438 1440 418 L1440 480 Q1080 502 720 490 Q360 478 0 500 Z" fill="#4caf50"/>
+
+    <!-- ── RIO ── -->
+    <path d="M0 485 Q180 470 360 482 Q540 494 720 478 Q900 462 1080 476 Q1260 490 1440 474 L1440 508 Q1260 524 1080 510 Q900 496 720 512 Q540 528 360 514 Q180 500 0 516 Z" fill="url(#river)" opacity="0.78"/>
+    <!-- Reflexos -->
+    <ellipse cx="1180" cy="490" rx="90" ry="8"  fill="#fff9c4" opacity="0.30"/>
+    <ellipse cx="300"  cy="496" rx="60" ry="6"  fill="#b3e5fc" opacity="0.40"/>
+    <g stroke="#90caf9" stroke-width="1.8" fill="none" opacity="0.55">
+      <path d="M200 492 Q260 486 320 492"/>
+      <path d="M520 498 Q585 492 650 498"/>
+      <path d="M880 486 Q945 480 1010 486"/>
+      <path d="M1200 492 Q1265 486 1330 492"/>
+    </g>
+
+    <!-- ── CAMPO CULTIVADO ── -->
+    <path d="M280 522 Q720 495 1160 522 L1160 580 Q720 548 280 580 Z" fill="#33691e"/>
+    <!-- Fileiras de perspectiva -->
+    <g opacity="0.88">
+      <path d="M284 524 Q720 499 1156 524 L1156 528 Q720 503 284 528 Z" fill="#2e7d32"/>
+      <path d="M288 534 Q720 507 1152 534 L1152 538 Q720 511 288 538 Z" fill="#388e3c"/>
+      <path d="M292 544 Q720 515 1148 544 L1148 548 Q720 519 292 548 Z" fill="#2e7d32"/>
+      <path d="M296 554 Q720 523 1144 554 L1144 558 Q720 527 296 558 Z" fill="#388e3c"/>
+      <path d="M300 564 Q720 531 1140 564 L1140 568 Q720 535 300 568 Z" fill="#2e7d32"/>
+    </g>
+    <!-- Plantas individuais -->
+    <g fill="#1b5e20">
+      <ellipse cx="310"  cy="518" rx="14" ry="25"/>
+      <ellipse cx="360"  cy="514" rx="15" ry="27"/>
+      <ellipse cx="410"  cy="512" rx="14" ry="25"/>
+      <ellipse cx="460"  cy="510" rx="15" ry="26"/>
+      <ellipse cx="510"  cy="508" rx="14" ry="25"/>
+      <ellipse cx="560"  cy="507" rx="15" ry="26"/>
+      <ellipse cx="610"  cy="506" rx="14" ry="25"/>
+      <ellipse cx="660"  cy="506" rx="15" ry="26"/>
+      <ellipse cx="710"  cy="506" rx="14" ry="25"/>
+      <ellipse cx="760"  cy="506" rx="15" ry="26"/>
+      <ellipse cx="810"  cy="507" rx="14" ry="25"/>
+      <ellipse cx="860"  cy="508" rx="15" ry="26"/>
+      <ellipse cx="910"  cy="510" rx="14" ry="25"/>
+      <ellipse cx="960"  cy="512" rx="15" ry="27"/>
+      <ellipse cx="1010" cy="514" rx="14" ry="25"/>
+      <ellipse cx="1060" cy="516" rx="15" ry="26"/>
+      <ellipse cx="1110" cy="518" rx="14" ry="25"/>
+      <ellipse cx="1150" cy="520" rx="13" ry="24"/>
+    </g>
+    <!-- Espigas douradas -->
+    <g fill="#f9a825" stroke="#e65100" stroke-width="0.5">
+      <ellipse cx="335"  cy="493" rx="6" ry="12"/>
+      <ellipse cx="385"  cy="489" rx="6" ry="12"/>
+      <ellipse cx="435"  cy="487" rx="6" ry="12"/>
+      <ellipse cx="485"  cy="485" rx="6" ry="12"/>
+      <ellipse cx="535"  cy="484" rx="6" ry="12"/>
+      <ellipse cx="585"  cy="483" rx="6" ry="12"/>
+      <ellipse cx="635"  cy="482" rx="6" ry="12"/>
+      <ellipse cx="685"  cy="482" rx="6" ry="12"/>
+      <ellipse cx="735"  cy="482" rx="6" ry="12"/>
+      <ellipse cx="785"  cy="482" rx="6" ry="12"/>
+      <ellipse cx="835"  cy="483" rx="6" ry="12"/>
+      <ellipse cx="885"  cy="484" rx="6" ry="12"/>
+      <ellipse cx="935"  cy="486" rx="6" ry="12"/>
+      <ellipse cx="985"  cy="488" rx="6" ry="12"/>
+      <ellipse cx="1035" cy="490" rx="6" ry="12"/>
+      <ellipse cx="1085" cy="492" rx="6" ry="12"/>
+      <ellipse cx="1130" cy="494" rx="6" ry="12"/>
+    </g>
+    <g stroke="#558b2f" stroke-width="2" opacity="0.75">
+      <line x1="335"  y1="505" x2="335"  y2="489"/>
+      <line x1="385"  y1="501" x2="385"  y2="485"/>
+      <line x1="435"  y1="499" x2="435"  y2="483"/>
+      <line x1="485"  y1="497" x2="485"  y2="481"/>
+      <line x1="535"  y1="496" x2="535"  y2="480"/>
+      <line x1="585"  y1="495" x2="585"  y2="479"/>
+      <line x1="635"  y1="494" x2="635"  y2="478"/>
+      <line x1="685"  y1="494" x2="685"  y2="478"/>
+      <line x1="735"  y1="494" x2="735"  y2="478"/>
+      <line x1="785"  y1="494" x2="785"  y2="478"/>
+      <line x1="835"  y1="495" x2="835"  y2="479"/>
+      <line x1="885"  y1="496" x2="885"  y2="480"/>
+      <line x1="935"  y1="498" x2="935"  y2="482"/>
+      <line x1="985"  y1="500" x2="985"  y2="484"/>
+      <line x1="1035" y1="502" x2="1035" y2="486"/>
+      <line x1="1085" y1="504" x2="1085" y2="488"/>
+      <line x1="1130" y1="506" x2="1130" y2="490"/>
+    </g>
+
+    <!-- ── SOLO ── -->
+    <path d="M0 590 Q720 565 1440 590 L1440 640 L0 640 Z" fill="url(#soil)"/>
+    <g stroke="#4e342e" stroke-width="1.2" opacity="0.22">
+      <path d="M60 608 Q420 595 780 603 Q1140 611 1420 598"/>
+      <path d="M40 625 Q400 612 760 619 Q1120 626 1420 614"/>
+    </g>
+    <!-- Grama -->
+    <path d="M0 588 Q360 573 720 579 Q1080 585 1440 570 L1440 600 Q1080 615 720 609 Q360 603 0 618 Z" fill="#43a047"/>
+    <path d="M0 584 Q360 569 720 575 Q1080 581 1440 566 L1440 594 Q1080 609 720 603 Q360 597 0 612 Z" fill="#66bb6a" opacity="0.45"/>
+
+    <!-- ── ÁRVORE ESQUERDA GRANDE ── -->
+    <g>
+      <ellipse cx="115" cy="592" rx="60" ry="13" fill="#1b5e20" opacity="0.28"/>
+      <path d="M102 592 Q97 530 94 462 Q92 418 95 378 Q99 352 107 334 Q115 352 116 378 Q119 418 121 462 Q123 530 130 592 Z" fill="#5d4037"/>
+      <path d="M102 592 Q97 530 94 462 Q92 418 95 378 Q99 352 107 334 Q105 352 102 378 Q100 418 100 462 Q100 530 102 592 Z" fill="#4e342e" opacity="0.42"/>
+      <ellipse cx="109" cy="306" rx="88"  ry="105" fill="#1b5e20"/>
+      <ellipse cx="109" cy="282" rx="72"  ry="86"  fill="#2e7d32"/>
+      <ellipse cx="96"  cy="264" rx="54"  ry="66"  fill="url(#tr1)"/>
+      <ellipse cx="122" cy="270" rx="46"  ry="60"  fill="#388e3c" opacity="0.62"/>
+      <ellipse cx="85"  cy="248" rx="28"  ry="34"  fill="#66bb6a" opacity="0.42"/>
+    </g>
+    <!-- Árvore esquerda pequena -->
+    <g>
+      <ellipse cx="210" cy="584" rx="40" ry="9" fill="#1b5e20" opacity="0.22"/>
+      <path d="M204 584 Q200 544 198 502 Q196 478 199 454 Q203 438 207 428 Q212 438 213 454 Q215 478 216 502 Q217 544 219 584 Z" fill="#6d4c41"/>
+      <ellipse cx="207" cy="406" rx="62" ry="76" fill="#1b5e20"/>
+      <ellipse cx="207" cy="388" rx="50" ry="60" fill="#2e7d32"/>
+      <ellipse cx="199" cy="374" rx="36" ry="46" fill="url(#tr2)"/>
+      <ellipse cx="215" cy="378" rx="30" ry="40" fill="#43a047" opacity="0.58"/>
+    </g>
+    <!-- Arbustos esquerda -->
+    <ellipse cx="68"  cy="594" rx="56" ry="22" fill="#2e7d32" opacity="0.82"/>
+    <ellipse cx="52"  cy="585" rx="36" ry="17" fill="#43a047" opacity="0.68"/>
+    <ellipse cx="265" cy="588" rx="44" ry="18" fill="#33691e" opacity="0.78"/>
+    <ellipse cx="280" cy="581" rx="28" ry="13" fill="#558b2f" opacity="0.65"/>
+
+    <!-- ── ÁRVORE DIREITA GRANDE ── -->
+    <g>
+      <ellipse cx="1325" cy="592" rx="60" ry="13" fill="#1b5e20" opacity="0.28"/>
+      <path d="M1312 592 Q1307 530 1304 462 Q1302 418 1305 378 Q1309 352 1317 334 Q1325 352 1326 378 Q1329 418 1331 462 Q1333 530 1340 592 Z" fill="#5d4037"/>
+      <path d="M1312 592 Q1307 530 1304 462 Q1302 418 1305 378 Q1309 352 1317 334 Q1315 352 1312 378 Q1310 418 1310 462 Q1310 530 1312 592 Z" fill="#4e342e" opacity="0.42"/>
+      <ellipse cx="1319" cy="306" rx="88"  ry="105" fill="#1b5e20"/>
+      <ellipse cx="1319" cy="282" rx="72"  ry="86"  fill="#2e7d32"/>
+      <ellipse cx="1306" cy="264" rx="54"  ry="66"  fill="url(#tr1)"/>
+      <ellipse cx="1332" cy="270" rx="46"  ry="60"  fill="#388e3c" opacity="0.62"/>
+      <ellipse cx="1295" cy="248" rx="28"  ry="34"  fill="#66bb6a" opacity="0.42"/>
+    </g>
+    <!-- Árvore direita pequena -->
+    <g>
+      <ellipse cx="1230" cy="584" rx="40" ry="9" fill="#1b5e20" opacity="0.22"/>
+      <path d="M1224 584 Q1220 544 1218 502 Q1216 478 1219 454 Q1223 438 1227 428 Q1232 438 1233 454 Q1235 478 1236 502 Q1237 544 1239 584 Z" fill="#6d4c41"/>
+      <ellipse cx="1227" cy="406" rx="62" ry="76" fill="#1b5e20"/>
+      <ellipse cx="1227" cy="388" rx="50" ry="60" fill="#2e7d32"/>
+      <ellipse cx="1219" cy="374" rx="36" ry="46" fill="url(#tr2)"/>
+      <ellipse cx="1235" cy="378" rx="30" ry="40" fill="#43a047" opacity="0.58"/>
+    </g>
+    <!-- Arbustos direita -->
+    <ellipse cx="1380" cy="594" rx="54" ry="22" fill="#2e7d32" opacity="0.80"/>
+    <ellipse cx="1392" cy="585" rx="36" ry="17" fill="#43a047" opacity="0.65"/>
+    <ellipse cx="1180" cy="588" rx="44" ry="18" fill="#33691e" opacity="0.76"/>
+
+    <!-- ── TURBINAS EÓLICAS ── -->
+    <!-- Turbina esquerda -->
+    <g>
+      <line x1="350" y1="594" x2="350" y2="336" stroke="#b0bec5" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="350" cy="336" r="10" fill="#cfd8dc"/>
+      <line x1="350" y1="336" x2="350" y2="258" stroke="#eceff1" stroke-width="6" stroke-linecap="round" transform="rotate(20,350,336)"/>
+      <line x1="350" y1="336" x2="350" y2="258" stroke="#eceff1" stroke-width="6" stroke-linecap="round" transform="rotate(140,350,336)"/>
+      <line x1="350" y1="336" x2="350" y2="258" stroke="#eceff1" stroke-width="6" stroke-linecap="round" transform="rotate(260,350,336)"/>
+      <circle cx="350" cy="336" r="11" fill="#f5f5f5"/>
+      <ellipse cx="358" cy="596" rx="26" ry="6" fill="#546e7a" opacity="0.18"/>
+    </g>
+    <!-- Turbina direita -->
+    <g>
+      <line x1="1090" y1="590" x2="1090" y2="328" stroke="#b0bec5" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="1090" cy="328" r="10" fill="#cfd8dc"/>
+      <line x1="1090" y1="328" x2="1090" y2="250" stroke="#eceff1" stroke-width="6" stroke-linecap="round" transform="rotate(-18,1090,328)"/>
+      <line x1="1090" y1="328" x2="1090" y2="250" stroke="#eceff1" stroke-width="6" stroke-linecap="round" transform="rotate(102,1090,328)"/>
+      <line x1="1090" y1="328" x2="1090" y2="250" stroke="#eceff1" stroke-width="6" stroke-linecap="round" transform="rotate(222,1090,328)"/>
+      <circle cx="1090" cy="328" r="11" fill="#f5f5f5"/>
+    </g>
+    <!-- Turbina central pequena (fundo) -->
+    <g opacity="0.62">
+      <line x1="720" y1="476" x2="720" y2="354" stroke="#b0bec5" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="720" cy="354" r="7" fill="#cfd8dc"/>
+      <line x1="720" y1="354" x2="720" y2="294" stroke="#eceff1" stroke-width="4" stroke-linecap="round" transform="rotate(35,720,354)"/>
+      <line x1="720" y1="354" x2="720" y2="294" stroke="#eceff1" stroke-width="4" stroke-linecap="round" transform="rotate(155,720,354)"/>
+      <line x1="720" y1="354" x2="720" y2="294" stroke="#eceff1" stroke-width="4" stroke-linecap="round" transform="rotate(275,720,354)"/>
+      <circle cx="720" cy="354" r="8" fill="#f5f5f5"/>
+    </g>
+
+    <!-- ── CELEIRO ── -->
+    <g opacity="0.90">
+      <rect x="502" y="450" width="100" height="66" fill="#c62828" rx="3"/>
+      <polygon points="488,450 614,450 551,412" fill="#b71c1c"/>
+      <!-- janelas -->
+      <rect x="514" y="464" width="22" height="17" fill="#fff9c4" rx="2"/>
+      <rect x="568" y="464" width="22" height="17" fill="#fff9c4" rx="2"/>
+      <line x1="525" y1="464" x2="525" y2="481" stroke="#5d4037" stroke-width="1.4"/>
+      <line x1="514" y1="472" x2="536" y2="472" stroke="#5d4037" stroke-width="1.4"/>
+      <line x1="579" y1="464" x2="579" y2="481" stroke="#5d4037" stroke-width="1.4"/>
+      <line x1="568" y1="472" x2="590" y2="472" stroke="#5d4037" stroke-width="1.4"/>
+      <!-- porta -->
+      <rect x="538" y="492" width="24" height="24" fill="#4e342e" rx="2"/>
+      <circle cx="559" cy="504" r="2" fill="#a1887f"/>
+    </g>
+    <!-- Silo -->
+    <g opacity="0.82">
+      <rect x="612" y="460" width="30" height="54" fill="#90a4ae" rx="3"/>
+      <ellipse cx="627" cy="460" rx="15" ry="7" fill="#b0bec5"/>
+      <ellipse cx="627" cy="456" rx="15" ry="7" fill="#cfd8dc"/>
+    </g>
+
+    <!-- ── PAINÉIS SOLARES ── -->
+    <g>
+      <path d="M870 566 Q1030 555 1190 563 L1190 580 Q1030 572 870 583 Z" fill="#1565c0" opacity="0.92"/>
+      <g stroke="#0d47a1" stroke-width="1.2" opacity="0.55">
+        <line x1="912"  y1="565" x2="911"  y2="579"/>
+        <line x1="954"  y1="563" x2="953"  y2="577"/>
+        <line x1="996"  y1="562" x2="995"  y2="576"/>
+        <line x1="1038" y1="561" x2="1037" y2="575"/>
+        <line x1="1080" y1="561" x2="1079" y2="575"/>
+        <line x1="1122" y1="562" x2="1121" y2="576"/>
+        <line x1="1164" y1="563" x2="1163" 
